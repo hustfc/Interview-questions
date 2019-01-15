@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c15802ab-42cf-4f5a-81f4-06f50d0f09a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python进阶/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python进阶/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/删除数组中的重复项.py" beforeDir="false" afterPath="$PROJECT_DIR$/删除数组中的重复项.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Interview_questions$k.coverage" NAME="k个元组翻转链表 Coverage Results" MODIFIED="1547367721481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interview_questions$reduce.coverage" NAME="reduce用法 Coverage Results" MODIFIED="1547363986634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python进阶" />
+    <SUITE FILE_PATH="coverage/Interview_questions$strStr__.coverage" NAME="实现strStr() Coverage Results" MODIFIED="1547519067514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interview_questions$map.coverage" NAME="map用法 Coverage Results" MODIFIED="1547363374816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python进阶" />
     <SUITE FILE_PATH="coverage/Interview_questions$filter.coverage" NAME="filter函数 Coverage Results" MODIFIED="1547363120854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python进阶" />
     <SUITE FILE_PATH="coverage/Interview_questions$python.coverage" NAME="python私有对象访问 Coverage Results" MODIFIED="1547470632374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/删除数组中的重复项.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" selection-end-line="9" selection-end-column="20" />
+              <caret selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -78,29 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/实现strStr().py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python类.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python私有对象访问.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -150,9 +132,9 @@
         <option value="$PROJECT_DIR$/k个元组翻转链表.py" />
         <option value="$PROJECT_DIR$/删除数组中的重复项.py" />
         <option value="$PROJECT_DIR$/移除元素.py" />
-        <option value="$PROJECT_DIR$/实现strStr().py" />
         <option value="$PROJECT_DIR$/python类.py" />
         <option value="$PROJECT_DIR$/python私有对象访问.py" />
+        <option value="$PROJECT_DIR$/实现strStr().py" />
       </list>
     </option>
   </component>
@@ -201,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.k个元组翻转链表">
+  <component name="RunManager" selected="Python.实现strStr()">
     <configuration name="三元运算符" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview-questions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -483,8 +465,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实现strStr()" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview-questions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实现strStr().py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实现strStr()" />
         <item itemvalue="Python.python类" />
         <item itemvalue="Python.k个元组翻转链表" />
         <item itemvalue="Python.三元运算符" />
@@ -506,17 +511,18 @@
       <workItem from="1547362806780" duration="3845000" />
       <workItem from="1547429207976" duration="4000" />
       <workItem from="1547465139768" duration="2157000" />
+      <workItem from="1547518673862" duration="790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9577000" />
+    <option name="totallyTimeSpent" value="10367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2304401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23288509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -669,17 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/腾讯，纸牌游戏.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/删除数组中的重复项.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="9" selection-end-column="20" />
+          <caret selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -690,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/实现strStr().py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -704,10 +696,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/腾讯，纸牌游戏.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python私有对象访问.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实现strStr().py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
